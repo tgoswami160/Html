@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is description">
+    <meta name="keywords" content="login page ,html,web development">
+    <meta name="robots" content="Index,follow">
+    <title>Login page </title>
+    <!-- including external javascript -->
+    <script src="tanu.js"></script>
+</head>
+
+<body>
+    <!-- this is a comment -->
+    <!--element-->
+    <p>this is a paragraph</p>
+    <p width="100px"><!--width is a attribute-->this is a p tag</p>
+    <!--empty tags-->
+    <img src="13.jpeg">
+    <br> <!-- used for next line -->
+    <hr>
+    <!-- headings -->
+    <h1>h1 heading</h1>
+    <h2>h2 heading</h2>
+    <h3>h3 heading</h3>
+    <h4>h4 heading</h4>
+    <h5>h5 heading</h5>
+    <h6>h6 heading</h6>
+    <hr>
+    <!-- hr is used to make a line -->
+    <pre>Hello this text will print as it is it is written because of pre tag</pre>
+    <br>
+    <b>Bold letter</b>
+    <br>
+    <strong>used to make bold letter as well as t make it imp for search engine operation</strong>
+    <br>
+    <i>italic font</i>
+    <br>
+    <em>italic font with important for seo</em>
+    <br>
+    <!-- html links -->
+    <a href="http://www.google.com" target="_blank">google</a>
+    <br>
+    <!-- html images -->
+    <img src="14.jpeg" width="104" height="142">
+    <br>
+    <big>big text</big>
+    <br>
+    <small>small text</small>
+    <br>
+    H<sub>subscripted text</sub>O
+    <br>
+    3<sup>superscripted text</sup>
+    <br>
+    <ins>inserted text</ins>
+    <br>
+    <del>delete text</del>
+    <br>
+    <!-- including external css -->
+    <link rel="stylesheet" href="tut13.css">
+    <!-- this is unordered list  -->
+    <ul type="point">
+        <li> thid is the first item of unordered list </li>
+        <li> thid is the second item of unordered list </li>
+        <li> thid is the third item of unordered list </li>
+    </ul>
+    <!-- this is ordered list -->
+    <ol type="number">
+        <li> thid is the first item of ordered list </li>
+        <li> thid is the second item of ordered list </li>
+        <li> thid is the third item of ordered list </li>
+    </ol>
+    <!-- tables in html -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>employee id</th>
+                <th>employee role</th>
+                <hr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>tanu</td>
+                <td>420</td>
+                <td>programmer</td>
+            </tr>
+            <tr>
+                <td>nidhi</td>
+                <td>410</td>
+                <td>comedian</td>
+            </tr>
+            <tr>
+                <td>chintu</td>
+                <td>400</td>
+                <td>coder</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- form in HTML -->
+    <hr>
+<h3> HTML Forms</h3>
+    <form action="backened.php">
+        <div>
+            Name: <input type="text" name="myname">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myrole">
+        </div>
+        <br>
+        <div>
+            Emailid: <input type="email" name="myemail" >
+        </div>
+        <br>
+        <div>
+            Number: <input type="number" name="myNumber" >
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate" >
+        </div>
+        <br>
+        <div>
+            Are you eligiable: <input type="checkbox" name="myeligibility" >
+        </div>
+        <br>
+        <div>
+            Gender:Male <input type="radio" name="mygender" >female <input type="radio" name="mygender" >
+        </div>
+        <br>
+        <div>
+          Dream car: <select name="my car" id="car">
+           <option value="ind">Indica</option>
+           <option value="swf">swift</option>
+           <option value="for">fortuner</option>
+        </select>
+        </div>
+        <br>
+
+        <div>
+           write about yourself:<br><textarea name="text" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        
+        <div>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset now">
+        </div>
+        <br>
+    </form>
+<!-- block elements->wo jo puri line ka space consume karte h  -->
+<p>this is a paragraph</p>
+<p>this is a also paragraph</p>
+<!-- Inline elemnts->wo only needed space consume karte h  -->
+<span>this is a span</span>
+<span>this is a also span</span>
+<hr>
+<h3>Id's and classes</h3>
+<div id="mainbox" class="redbg blackborder">
+    this is mainbox
+</div>
+<span class="redbg"></span>
+<!-- .for class and # is for id  -->
+<!-- emmet -->
+<span class="redbg"></span>
+<span id="mainspan"></span>
+<!-- emmet takes div tag as default -->
+<div class="blackbackground"></div>
+<!-- creating multiple elements using emmet  -->
+<span class="class1 class2 class3">first</span>
+<span class="class1 class2 class3">second</span>
+<span class="class1 class2 class3">third</span>
+<span class="class1 class2 class3">fourth</span>
+<!-- HTML entities -->
+<div class="container">
+    <p>this is a paragraph</p>
+    <p>this is a another &nbsp; paragraph</p>
+    <p>this is a another &nbsp; paragraph</p>
+    <p>paragraph  is written like &lt;p&gt;</p>
+    <p>copyright  is written like &copy;</p>
+    <p>this  is written like &rArr;</p>
+    <p>fraction  is written like &frac14;</p>
+    <p>empty character  is written like &#8203;</p>
+   <!-- Semantic tags  -->
+   <details>
+    <summary>hello summary here</summary>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consequatur cum, rem repellat laudantium totam molestias ipsum necessitatibus, unde, quas fuga. Voluptatem distinctio ex, voluptatibus deleniti blanditiis nihil repellat minus recusandae, nostrum, architecto labore!
+   </details>
+   <!-- khatam html  -->
+</div>
+</body>
+
+</html>
